@@ -12,7 +12,6 @@ inputs:
   tag_list:
     description: 'List of comma-separated tags that gets passed along to the docker build args'
     required: false
-    default: '' # set to an empty string
   registry_url:
     description: 'URL of the registry'
     required: true
